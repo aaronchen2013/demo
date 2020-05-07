@@ -1,11 +1,12 @@
-//第一个文件 程序眼客栈 微擎代码派生
+<?php 
+//程序员客栈 微代码派生 2020-05-06
 echo “hello， git”;
 ////////////////////////
-<?php
+
 defined('IN_IA') or exit('Access Denied');
 class Q_aaron_rencaiModule extends WeModule
 {
-    public $tablename = 'q_aaron_rencai_reply';   // aaron chen added by 2020-02-11
+    public $tablename = 'q_aaron_rencai_reply';   // aaronchen added by 2020-02-11
     public function fieldsFormDisplay($rid = 0)
     {
         global $_W;
